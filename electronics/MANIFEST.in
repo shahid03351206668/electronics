@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include electronics *.css
+recursive-include electronics *.csv
+recursive-include electronics *.html
+recursive-include electronics *.ico
+recursive-include electronics *.js
+recursive-include electronics *.json
+recursive-include electronics *.md
+recursive-include electronics *.png
+recursive-include electronics *.py
+recursive-include electronics *.svg
+recursive-include electronics *.txt
+recursive-exclude electronics *.pyc
